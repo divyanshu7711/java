@@ -8,6 +8,7 @@ public class ReverseArray {
                                 for(int i=0;i<arr.length;i++){
                                                 arr[i]=sc.nextInt();
                                                      }
+                                                     sc.close();
                                 for(int i=0;i<arr.length;i++){
                                                  System.out.print( arr[i]+" , ");  }
 
@@ -20,8 +21,8 @@ public class ReverseArray {
                                     n--;
                                     i++;
                                 }
-                                for(int i=0;i<arr.length;i++){
-                                    System.out.print( arr[i]+" , ");  }
+                                for(int j=0;j<arr.length;j++){
+                                    System.out.print( arr[j]+" , ");  }
 
     }
 }

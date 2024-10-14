@@ -12,6 +12,7 @@ public class MaxMininArray {
                                 for(int i=0;i<5;i++){
                                                 arr[i]=sc.nextInt();
                                                      }
+                                                     sc.close();
                                 for(int i=0;i<5;i++){
                                                  System.out.print( arr[i]+" , ");  }
                                                  int max=arr[0];
