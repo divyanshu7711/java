@@ -1,3 +1,5 @@
+// Write a program to find the second largest number in an array.
+
 import java.util.Scanner;
 
 /**
@@ -27,14 +29,16 @@ public static void main(String[] args) {
   if (count>0) System.out.println(" 2nd maximum :"+max2);
   else{
     max2=arr[1];
-    for (int i=1;i<5;i++){
-        if(arr[i]>max ){ 
+    for (int i=2;i<5;i++){
+        if(arr[i]>max2 ){ 
                          max2=arr[i];
                          
         }
-        System.out.println("max 2:"+max2);
+        
             }
+            System.out.println("max 2:"+max2);
   }
-                     
+     sc.close();
+
 }
 }
