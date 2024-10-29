@@ -13,6 +13,7 @@ public class finallyBLock {
         finally{
             System.out.println("chln naa");
         }
-        System.out.println("kya be lodu");// yeh hr baar run hoga jb tk return hi na krde in try catch 
+        System.out.println("kya be lodu"); 
+        // yeh hr baar run hoga jb tk return hi na krde in try catch 
     }
 }
